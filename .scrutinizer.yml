@@ -19,6 +19,7 @@ tools:
                 - 'local/*'
                 - 'schemes/*'
                 - 'templates/*'
+                - 'config/*'
 
     php_code_coverage:
         enabled: true
@@ -32,6 +33,7 @@ tools:
                 - 'local/*'
                 - 'schemes/*'
                 - 'templates/*'
+                - 'config/*'
 
     php_code_sniffer:
         enabled: true
@@ -51,6 +53,7 @@ tools:
                 - 'local/*'
                 - 'schemes/*'
                 - 'templates/*'
+                - 'config/*'
 
     # Copy/Paste Detector
     php_cpd:
@@ -64,6 +67,7 @@ tools:
             - local
             - schemes
             - templates
+            - config
 
     # PHP CS Fixer (http://http://cs.sensiolabs.org/).
     php_cs_fixer:
@@ -80,6 +84,7 @@ tools:
                 - 'local/*'
                 - 'schemes/*'
                 - 'templates/*'
+                - 'config/*'
 
     # Analyzes the size and structure of a PHP project.
     php_loc:
@@ -93,6 +98,7 @@ tools:
             - local
             - schemes
             - templates
+            - config
 
     # PHP Mess Detector (http://phpmd.org).
     php_mess_detector:
@@ -115,6 +121,7 @@ tools:
                 - 'local/*'
                 - 'schemes/*'
                 - 'templates/*'
+                - 'config/*'
 
     # Analyzes the size and structure of a PHP project.
     php_pdepend:
@@ -128,6 +135,7 @@ tools:
             - local
             - schemes
             - templates
+            - config
 
     # Runs Scrutinizer's PHP Analyzer Tool
     # https://scrutinizer-ci.com/docs/tools/php/php-analyzer/config_reference
@@ -154,6 +162,7 @@ tools:
                 - 'local/*'
                 - 'schemes/*'
                 - 'templates/*'
+                - 'config/*'
 
     # Security Advisory Checker
     sensiolabs_security_checker: true

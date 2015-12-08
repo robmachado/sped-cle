@@ -44,20 +44,19 @@
     },
     "autoload": {
         "psr-4": {
-          "Sped\\CLe\\": "src/" 
+          "NFePHP\\CLe\\": "src/"
         } 
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0-dev",
-            "dev-develop": "1.1-dev"
+            "dev-master": "0.1.x-dev"
         }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload-dev": {
         "psr-4": {
-            "SpedTest\\CLe\\": "test"
+            "NFePHPTest\\CLe\\": "test"
         }
     }
 }

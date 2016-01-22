@@ -1,5 +1,7 @@
 # sped-cle
 
+EM DESENVOLVIMENTO !!!
+
 # INFORMAÇÕES GERAIS
 A Capa de Lote Eletrônica (CL-e) é um documento auxiliar criado para agilizar o registro e liberação de mercadorias acobertadas por Notas Fiscais Eletrônicas
 (NF-e), nos Postos Fiscais do país.
